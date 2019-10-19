@@ -18,6 +18,14 @@
 		<link href="assets/syntax.css" rel="stylesheet" type="text/css" />
 		<link href="assets/font-awesome.css" rel="stylesheet" type="text/css" />
 		<title>DJP GNU Laboratory</title>
+
+		<script type="text/javascript">        
+		if (location.protocol != 'https:')
+		{
+			location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+		}
+		</script>
+
 	</head>
 
 	<body>
@@ -51,7 +59,6 @@
                                         </ul>
                                 </div>
                         </section>
-			<footer>
                         <section id="projects">
                                 <div class="section-title"><h2>Patch</h2></div>
                                 <div class="section-body">
@@ -75,6 +82,7 @@
                                         </ul>
                                 </div>
                         </section>
+                        <footer>
 				<p>Feel free to clone or fork on <a href="https://github.com/djpgnulab">https://github.com/djpgnulab</a></p>
 				<p>Licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</p>
 			</footer>
